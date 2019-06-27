@@ -1,0 +1,7 @@
+Notes.txt
+
+Express quick generator: https://www.npmjs.com/package/express-generator
+  sudo npm install -g express-generator
+  
+  express --view=hbs --git webcamSecApp
+
