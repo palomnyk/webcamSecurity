@@ -21,7 +21,9 @@
     console.error(error); 
   });
   mouseJail.addEventListener('mouseleave', function(){
-    console.log('mouse out of jail');
+    var currentdate = new Date();
+    console.log(`${currentdate.getMonth() + 1}/${currentdate.getDate()}/${currentdate.getFullYear()} @ 
+ ${currentdate.getHours()}:${currentdate.getMinutes()}`);
     context.drawImage(video, 0, 0, 400, 300)
 });
 })()
