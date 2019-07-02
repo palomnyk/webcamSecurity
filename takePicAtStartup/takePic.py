@@ -17,7 +17,7 @@ ret, frame = video_capture.read()
 #for putting code in the same dir as this script
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-pic_path = os.path.join(dir_path, f"securityPic{now}.png")
+pic_path = os.path.join(dir_path, 'security_photos',f"securityPic{now}.png")
 
 print(pic_path)
 
