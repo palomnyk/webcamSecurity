@@ -1,0 +1,1 @@
+Download the python dependencies (openCV) and then add this code to your task scheduler on windows. Set it to run on login.
